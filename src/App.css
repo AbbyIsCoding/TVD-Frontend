@@ -24,6 +24,14 @@
   color: white;
 }
 
+body {
+  background-color: #451c26;
+  color: rgb(235, 235, 235);
+  padding: 40px;
+  font-family: Arial;
+  
+}
+
 .App-link {
   color: #61dafb;
 }

@@ -29,6 +29,9 @@ const Characters = () => {
                 console.log(randomNum)
                 var CharNum = randomNum; 
                 console.log(CharNum);
+
+                var specNum = res.data[CharNum].species.length
+                console.log(specNum); 
               
                 console.log('Response from main API: ', res) // All info
                 console.log('Characters Data: ', res.data) // just the data 
@@ -57,12 +60,12 @@ const Characters = () => {
       
         return (
         <div>
-            <h1>poop</h1>
-            <h1>{Data.name}</h1>
-            <h1>{Data.title}</h1>
-            <h1>{Data.species}</h1>
-            <h1>{Data.gender}</h1>
-            <h1>{Data.actor}</h1>
+            
+            <h1>{'Name: ' + Data.name}</h1>
+            <h1>{'Titles: '+ Data.title}</h1>
+            <h1>{'Species: '+Data.species}</h1>
+            <h1>{'Gender: ' +Data.gender}</h1>
+            <h1>{'Actor: ' + Data.actor}</h1>
             
 
 
